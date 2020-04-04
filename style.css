@@ -1,0 +1,92 @@
+.background {
+    background-image: linear-gradient(rgba(224, 243, 243, 0.8), rgba(224, 243, 243, 0.8)),url('https://i.picsum.photos/id/180/2400/1600.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
+
+.card-img {
+    margin-top: 100px;
+    background-image: url("https://i.picsum.photos/id/180/2400/1600.jpg");
+    height: 200px;
+    box-shadow: 5px 5px 5px rgba(182, 182, 182, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-right {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    background-color:#EAEAEA;
+    height: 450px;
+    box-shadow: 5px 5px 5px rgba(182, 182, 182, 0.75);
+  }
+  
+  .profile-left {
+    height: 450px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #a59d9d, #bab5b6, #d0cdcf, #e7e6e7, #ffffff);
+    box-shadow: 01px 5px 5px rgba(182, 182, 182, 0.75);
+  }
+
+  .profile-left h1 {
+      font-size: 40px;
+  }
+
+  #avatar {
+    background-image: url("https://res.cloudinary.com/dauxxi1io/image/upload/v1585954782/f3ae57b7-05e0-404d-9af2-1f219e778fdc_ilawdv.jpg");
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: 70px;
+  }
+
+  .skill {
+
+  }
+
+  .skill-list{
+    list-style-type:none;
+  }
+
+  .flag img {
+      height: 15px;
+      width: 25px;
+  }
+  
+  .logo img {
+      height: 25px;
+      width: 15px;
+  }
+  
+.about {
+    width: 420px;
+    position: relative;
+    top: -70px;
+    left: 20px;
+}
+.footer {
+    list-style-type:none;
+    font-size: 25px;
+}
+
+.footer li {
+    display: inline;
+    padding: 5px;
+}
+
+#ln {
+    color:#0e76a8;
+}
+
+#git {
+    color: #333;
+}
